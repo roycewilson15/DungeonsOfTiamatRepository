@@ -1,0 +1,53 @@
+{
+  "resources": [
+    {"id":{"name":"sprite_heart","path":"sprites/sprite_heart/sprite_heart.yy",},"order":1,},
+    {"id":{"name":"health_system_hearts","path":"scripts/health_system_hearts/health_system_hearts.yy",},"order":1,},
+    {"id":{"name":"health_system_bar","path":"scripts/health_system_bar/health_system_bar.yy",},"order":3,},
+    {"id":{"name":"Health system Changelog","path":"notes/Health system Changelog/Health system Changelog.yy",},"order":0,},
+    {"id":{"name":"health_system_text","path":"scripts/health_system_text/health_system_text.yy",},"order":5,},
+    {"id":{"name":"heart_system","path":"objects/heart_system/heart_system.yy",},"order":1,},
+    {"id":{"name":"health_bar_system","path":"objects/health_bar_system/health_bar_system.yy",},"order":3,},
+    {"id":{"name":"font_example_hearts","path":"fonts/font_example_hearts/font_example_hearts.yy",},"order":4,},
+    {"id":{"name":"text_health_system","path":"objects/text_health_system/text_health_system.yy",},"order":5,},
+    {"id":{"name":"room_example","path":"rooms/room_example/room_example.yy",},"order":1,},
+  ],
+  "Options": [],
+  "defaultScriptType": 1,
+  "isEcma": false,
+  "configs": {
+    "name": "Default",
+    "children": [],
+  },
+  "RoomOrderNodes": [
+    {"roomId":{"name":"room_example","path":"rooms/room_example/room_example.yy",},},
+  ],
+  "Folders": [
+    {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Scripts.yy","order":9,"resourceVersion":"1.0","name":"Scripts","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Scripts/health system.yy","order":1,"resourceVersion":"1.0","name":"health system","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Fonts.yy","order":13,"resourceVersion":"1.0","name":"Fonts","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects.yy","order":17,"resourceVersion":"1.0","name":"Objects","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/Health system.yy","order":1,"resourceVersion":"1.0","name":"Health system","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Rooms.yy","order":19,"resourceVersion":"1.0","name":"Rooms","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Notes.yy","order":21,"resourceVersion":"1.0","name":"Notes","tags":[],"resourceType":"GMFolder",},
+  ],
+  "AudioGroups": [
+    {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
+  ],
+  "TextureGroups": [
+    {"isScaled":false,"compressFormat":"bz2","autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,"resourceVersion":"1.3","name":"Default","resourceType":"GMTextureGroup",},
+  ],
+  "IncludedFiles": [],
+  "MetaData": {
+    "IDEVersion": "2022.6.1.26",
+    "PackageType": "Asset",
+    "PackageName": "Health system with hearts",
+    "PackageID": "com.flyinglegendsstudio.hpsystemwithhearts",
+    "PackagePublisher": "Pikku-a",
+    "PackageVersion": "1.0.2",
+  },
+  "resourceVersion": "1.5",
+  "name": "Health system with hearts",
+  "tags": [],
+  "resourceType": "GMProject",
+}
