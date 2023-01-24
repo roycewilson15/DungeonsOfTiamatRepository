@@ -9,7 +9,10 @@
   "solid": true,
   "visible": true,
   "managed": true,
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "player_idle",
+    "path": "sprites/player_idle/player_idle.yy",
+  },
   "persistent": true,
   "parentObjectId": null,
   "physicsObject": false,
@@ -27,6 +30,8 @@
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"object_levelchange","path":"objects/object_levelchange/object_levelchange.yy",},},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":12,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],

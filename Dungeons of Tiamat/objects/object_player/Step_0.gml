@@ -1,19 +1,21 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-//player left and right movement
-if(keyboard_check(vk_left)){
-	x -= 10;
-	sprite_index = player_walking;
-	image_xscale = 1;
-}
-else if(keyboard_check(vk_right)){
-	x += 10;
-	sprite_index = player_walking;
-	image_xscale = -1;
-}
-else{
-	sprite_index = player_idle;	
+
+//movement and attack variables so you can move with different keys
+keyLeft = keyboard_check(vk_left) || keyboard_check(ord("A"));
+keyRight = keyboard_check(vk_right) || keyboard_check(ord("D"));
+keyAttack = keyboard_check(vk_space);
+
+//switch statment to call scripts for attack or movement
+switch (state)
+{
+	case PLAYERSTATE.FREE: playerstate_free();
+	break;
+	
+	case PLAYERSTATE.ATTACK: playerstate_attack();
+	break;
+	
 }
 
 
