@@ -2,15 +2,8 @@
 // You can write your code in this editor
 wolfstate = ENEMYSTATE.IDLE
 
+enemySpeed = 5
 wolfhp = 3;
-flash = true;
+isHit = false;
 
-enum ENEMYSTATE
-{
-	IDLE,//idle
-	WANDER,//walking around
-	ATTACK,//attacking state
-	HIT,
-	DEAD
-	
-}
+path_start(wolfpath2,1,path_action_reverse,1);

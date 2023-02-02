@@ -14,7 +14,7 @@ function playerstate_attack(){
 	//use attack hitbox and check for hits
 	mask_index = player_attack_hitbox;
 	var hitByAttackNow = ds_list_create();
-	var hits = instance_place_list(x,y,object_wolf,hitByAttackNow,false);
+	var hits = instance_place_list(x,y,object_wolf1,hitByAttackNow,false);
 	
 	if(hits > 0)
 	{
@@ -28,8 +28,9 @@ function playerstate_attack(){
 				with(hitID)
 				{
 				   // this is where you add input of what happens when enemy is hit	
-				   //call enemy_hit method 
-				   enemy_hit(1);
+				   
+				   
+				   
 				}
 				
 			}

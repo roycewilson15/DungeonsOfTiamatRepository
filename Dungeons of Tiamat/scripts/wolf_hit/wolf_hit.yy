@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "enemy_hit",
+  "name": "wolf_hit",
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
