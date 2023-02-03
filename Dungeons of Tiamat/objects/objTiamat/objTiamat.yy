@@ -2,10 +2,7 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "objTiamat",
-  "spriteId": {
-    "name": "sprTiamatWalk_1",
-    "path": "sprites/sprTiamatWalk_1/sprTiamatWalk_1.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,
