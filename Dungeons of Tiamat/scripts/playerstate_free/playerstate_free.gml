@@ -31,9 +31,10 @@ function playerstate_free(){
 		var hitboxX = lengthdir_x(LEN,direction) + playerCenterx;
 		var hitboxY = lengthdir_y(LEN,direction) + playerCentery;
 		
-		var hitbox = instance_create_depth(hitboxX, hitboxY, depth, object_attackhitbox);
 		
-		hitbox.creator = id;
+		instance_create_depth(hitboxX, hitboxY, depth, object_attackhitbox);
+		
+		
 		state = PLAYERSTATE.ATTACK;
 		
 		
