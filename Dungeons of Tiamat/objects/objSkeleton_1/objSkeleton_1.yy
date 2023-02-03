@@ -2,10 +2,7 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "objSkeleton_1",
-  "spriteId": {
-    "name": "sprSkeletonAttack_2",
-    "path": "sprites/sprSkeletonAttack_2/sprSkeletonAttack_2.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,
@@ -28,7 +25,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "skeltonObjects",
+    "path": "folders/Objects/skeltonObjects.yy",
   },
 }

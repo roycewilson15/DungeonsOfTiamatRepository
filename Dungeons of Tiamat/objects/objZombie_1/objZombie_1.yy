@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "objZombie_1",
   "spriteId": {
-    "name": "sprZombieAttack_2",
-    "path": "sprites/sprZombieAttack_2/sprZombieAttack_2.yy",
+    "name": "sprZombieWalk",
+    "path": "sprites/sprZombieWalk/sprZombieWalk.yy",
   },
   "solid": false,
   "visible": true,
@@ -28,7 +28,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "zombieObjects",
+    "path": "folders/Objects/zombieObjects.yy",
   },
 }

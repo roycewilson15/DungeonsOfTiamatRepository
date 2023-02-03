@@ -2,10 +2,7 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "objEliteSkeleton",
-  "spriteId": {
-    "name": "sprEliteSkeletonAttack_1",
-    "path": "sprites/sprEliteSkeletonAttack_1/sprEliteSkeletonAttack_1.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,
@@ -28,7 +25,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "eliteSkeletonObjects",
+    "path": "folders/Objects/eliteSkeletonObjects.yy",
   },
 }
