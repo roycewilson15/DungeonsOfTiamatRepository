@@ -2,7 +2,10 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "objEliteSkeleton",
-  "spriteId": null,
+  "spriteId": {
+    "name": "sprEliteSkeletonWalk",
+    "path": "sprites/sprEliteSkeletonWalk/sprEliteSkeletonWalk.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,

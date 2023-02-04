@@ -22,5 +22,17 @@ function playerstate_free(){
 		sprite_index = player_idle;	
 	}
 	//if player presses attack key PLAYERSTATE is changed to attack
-	if(keyAttack) state = PLAYERSTATE.ATTACK;
+	if(keyAttack) 
+	{
+		var playerCenterx = x +sprite_width /2;
+		var playerCentery = y +sprite_height /2;
+		
+		var LEN = 190;
+		var hitboxX = lengthdir_x(LEN,direction) + playerCenterx;
+		var hitboxY = lengthdir_y(LEN,direction) + playerCentery;
+		
+		instance_create_depth(hitboxX, hitboxY, depth, object_attackhitbox);
+		
+		state = PLAYERSTATE.ATTACK;
+	}
 }

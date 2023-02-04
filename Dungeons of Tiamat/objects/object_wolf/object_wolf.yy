@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "object_wolf",
   "spriteId": {
-    "name": "wolf_idle",
-    "path": "sprites/wolf_idle/wolf_idle.yy",
+    "name": "wolf_walking",
+    "path": "sprites/wolf_walking/wolf_walking.yy",
   },
   "solid": false,
   "visible": true,
@@ -27,11 +27,14 @@
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"object_attackhitbox","path":"objects/object_attackhitbox/object_attackhitbox.yy",},},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "wolfObjects",
+    "path": "folders/Objects/wolfObjects.yy",
   },
 }
