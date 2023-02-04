@@ -34,9 +34,19 @@
     "SerialiseFrameCount": 1,
   },
   "macroPageTiles": {
-    "SerialiseWidth": 0,
-    "SerialiseHeight": 0,
-    "TileSerialiseData": [],
+    "TileDataFormat": 1,
+    "SerialiseWidth": 19,
+    "SerialiseHeight": 5,
+    "TileCompressedData": [
+      -58,
+      0,
+      -18,
+      1,
+      1,
+      0,
+      -18,
+      3,
+    ],
   },
   "parent": {
     "name": "TownTileset",

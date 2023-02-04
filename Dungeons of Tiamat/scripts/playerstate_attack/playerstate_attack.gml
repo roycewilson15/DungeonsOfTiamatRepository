@@ -29,7 +29,7 @@ function playerstate_attack(){
 				{
 				   // this is where you add input of what happens when enemy is hit	
 				   //call enemy_hit method 
-				   enemy_hit(1);
+				  
 				}
 				
 			}
