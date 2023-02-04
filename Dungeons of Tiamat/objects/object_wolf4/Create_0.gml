@@ -5,5 +5,5 @@
 wolfhp = 3;
 isHit = false;
 
-path_start(wolfpath4,2,path_action_reverse,1);
+path_start(path4,2,path_action_reverse,1);
 	
