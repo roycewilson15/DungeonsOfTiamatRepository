@@ -36,15 +36,13 @@ ds_menu_main = create_menu_page(
 	
 ds_menu_audio = create_menu_page(
 	["MASTER",		menu_element_type.slider,			change_volume,		1,		[0,1]],
-	["SOUNDS",		menu_element_type.slider,			change_volume,		1,		[0,1]],
-	["MUSIC",		menu_element_type.slider,			change_volume,		1,		[0,1]],
 	["BACK",		menu_element_type.page_transfer,	menu_page.main],
 );
 
 ds_menu_controls = create_menu_page(
 	["MOVE LEFT:",		menu_element_type.view,			"A OR L-ARROW KEY"],
 	["MOVE RIGHT:",		menu_element_type.view,			"D OR R-ARROW KEY"],
-	["ATTACK ENEMY:",	menu_element_type.view,			"L CLICK"],
+	["ATTACK ENEMY:",	menu_element_type.view,			"SPACE-BAR"],
 	["BACK",			menu_element_type.page_transfer,	menu_page.main],
 );   
 
@@ -59,8 +57,7 @@ repeat(array_len){
 
 inputting = false;
 
-audio_group_load(audiogroup_music);
-audio_group_load(audiogroup_soundeffects);
+
 
 
 

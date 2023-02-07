@@ -12,9 +12,7 @@ if(inputting){
 		case menu_element_type.slider:
 			
 			switch(menu_option[page]){
-				case 0: break;
-				case 1: break;
-				case 2: break;
+				
 			}
 			
 			var hinput = keyboard_check(global.key_right) - keyboard_check(global.key_left);
