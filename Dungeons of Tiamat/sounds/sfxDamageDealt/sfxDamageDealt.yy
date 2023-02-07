@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "mStart_Screen",
+  "name": "sfxDamageDealt",
   "conversionMode": 0,
   "compression": 1,
   "volume": 1.0,
@@ -14,10 +14,10 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "mStart_Screen.mp3",
-  "duration": 122.01796,
+  "soundFile": "sfxDamageDealt.mp3",
+  "duration": 2.35102,
   "parent": {
-    "name": "music",
-    "path": "folders/Sounds/music.yy",
+    "name": "sfx",
+    "path": "folders/Sounds/sfx.yy",
   },
 }
