@@ -11,9 +11,10 @@ if(inputting){
 	switch(ds_grid[# 1, menu_option[page]]){
 		case menu_element_type.slider:
 			
-			switch(menu_option[page]){
+			//commented this switch since it wasnt letting me start the game 
+			//switch(menu_option[page]){
 				
-			}
+			//}
 			
 			var hinput = keyboard_check(global.key_right) - keyboard_check(global.key_left);
 			if(hinput !=0)

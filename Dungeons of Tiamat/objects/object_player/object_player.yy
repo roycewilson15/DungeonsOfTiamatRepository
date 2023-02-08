@@ -39,6 +39,7 @@
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"objZombie","path":"objects/objZombie/objZombie.yy",},},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"objSkeleton","path":"objects/objSkeleton/objSkeleton.yy",},},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"objEliteSkeleton","path":"objects/objEliteSkeleton/objEliteSkeleton.yy",},},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"objTiamat","path":"objects/objTiamat/objTiamat.yy",},},
   ],
   "properties": [],
   "overriddenProperties": [],
