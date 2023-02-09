@@ -2,9 +2,10 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function player_hit(_damage){
 
-playerhp -= _damage;
+global.playerhp -= _damage;
 
-	if(playerhp <= 0)
+
+	if(global.playerhp <= 0)
 	{
 		instance_destroy();
 		room_restart();

@@ -20,6 +20,7 @@
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances_1","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5601B8BA","properties":[],"isDnd":false,"objectId":{"name":"object_player","path":"objects/object_player/object_player.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":160.0,"y":1696.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_77064A6E","properties":[],"isDnd":false,"objectId":{"name":"objTiamat","path":"objects/objTiamat/objTiamat.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":-1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":3328.0,"y":1408.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_51883A2B","properties":[],"isDnd":false,"objectId":{"name":"Health_hud","path":"objects/Health_hud/Health_hud.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":160.0,"y":704.0,},
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"caveFloorTile","tilesetId":{"name":"caveFloorTileset_1","path":"tilesets/caveFloorTileset_1/caveFloorTileset_1.yy",},"x":0,"y":0,"tiles":{"TileDataFormat":1,"SerialiseWidth":313,"SerialiseHeight":125,"TileCompressedData":[
 -35059,-2147483648,128,1,2,3,4,5,1,2,3,4,5,1,2,3,4,5,1,1,2,3,4,5,1,2,3,4,5,1,2,3,4,5,1,2,3,4,5,1,1,2,3,1,2,3,4,5,1,2,3,4,5,1,2,3,4,5,1,1,2,3,4,1,2,3,4,5,1,2,3,4,5,1,2,3,4,5,1,1,2,3,1,2,3,4,5,1,2,3,4,5,1,2,3,4,5,1,1,2,3,4,1,2,3,4,5,1,2,3,4,5,1,2,3,4,1,2,3,4,5,1,2,3,4,5,1,2,3,4,5,-3,1,159,2,3,4,5,1,2,3,4,5,1,2,3,4,5,1,1,2,3,1,2,3,4,5,1,2,3,4,5,1,2,3,4,5,1,1,2,3,4,5,1,2,3,4,5,1,2,3,4,5,1,2,3,4,5,1,1,2,3,4,5,1,2,3,4,5,1,2,3,4,5,1,2,3,4,5,1,2,3,4,5,1,2,3,4,5,1,2,3,4,5,1,1,2,1,2,3,4,5,1,2,3,4,5,1,2,3,4,5,1,1,2,3,1,2,3,4,5,1,2,3,4,5,1,2,3,4,1,2,3,4,5,1,2,3,4,5,1,2,3,4,5,1,1,2,1,2,3,4,5,1,2,3,4,5,1,2,3,4,5,-3,1,17,2,3,4,5,1,2,3,4,5,1,2,3,4,5,1,1,2,
@@ -34,6 +35,7 @@
   "instanceCreationOrder": [
     {"name":"inst_5601B8BA","path":"rooms/cave_level/cave_level.yy",},
     {"name":"inst_77064A6E","path":"rooms/cave_level/cave_level.yy",},
+    {"name":"inst_51883A2B","path":"rooms/cave_level/cave_level.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
