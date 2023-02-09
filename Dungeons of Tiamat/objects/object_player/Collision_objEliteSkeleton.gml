@@ -3,6 +3,7 @@
 
 if(ableToHit == true)
 {
+	hearts = -1
 	player_hit(1);//deals 1 damage to player
 	playerIsHit = true;//set to true to create flash effect 
 	ableToHit = false;//set to false so that player gets break from being hit 

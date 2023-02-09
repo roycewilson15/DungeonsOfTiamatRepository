@@ -2,7 +2,9 @@
 
 //establish state variable, which is state the character is in
 state = PLAYERSTATE.FREE;
-playerhp = 5;
+playermaxhp = 3;
+global.playerhp = playermaxhp;
+
 
 playerIsHit = false;
 ableToHit = true;
